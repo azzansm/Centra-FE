@@ -17,9 +17,10 @@ function createCentras() {
     for (let i = 1; i <= 10; i++) {
         centras.push({
             batches: [
-                { id: i * 100 + 1, name: `Batch 1`, steps: createSteps(), date: '2024-05-20', startTime: '10:00 AM' },
-                { id: i * 100 + 2, name: `Batch 2`, steps: createSteps(), date: '2024-05-21', startTime: '11:00 AM' },
-                { id: i * 100 + 3, name: `Batch 3`, steps: createSteps(), date: '2024-05-22', startTime: '12:00 PM' },
+                { id: i * 100 + 1, name: `Batch 1`, steps: createSteps(), date: '20-05-2024', startTime: '10:00 AM' },
+                { id: i * 100 + 2, name: `Batch 2`, steps: createSteps(), date: '24-05-2024', startTime: '11:59 AM' },
+                { id: i * 100 + 3, name: `Batch 3`, steps: createSteps(), date: '22-05-2024', startTime: '12:00 PM' },
+                { id: i * 100 + 4, name: `Batch 4`, steps: createSteps(), date: '22-05-2024', startTime: '12:00 PM' },
             ]
         });
     }
@@ -112,7 +113,7 @@ function BatchProgress() {
         <div className="container">
             <Link to="/" className="back-button">&#60;</Link>            
             <div className="content">
-                <h3 className="BP-title">Centra [Location]</h3>
+                <h2 className="BP-title">Centra [Location]</h2>
                 <div className="title-header">
                     <div className="column-header">Name</div>
                     <div className="column-header">Date</div>

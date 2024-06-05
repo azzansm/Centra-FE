@@ -121,7 +121,7 @@
 }
 
 .modal-field select option {
-    padding: 1px;
+    padding: 10px;
     background-color: #f1f1f1 ;
     color: black;
     border-radius: 0;
@@ -134,7 +134,7 @@
     border: 1px solid #ccc;
     border-radius: 3px;
 }
-.delivery-table {
+/* .delivery-table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
@@ -162,4 +162,4 @@
 
 .deliver-button:hover {
     background-color: #00311a;
-}
+} */

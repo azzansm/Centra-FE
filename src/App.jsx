@@ -19,13 +19,7 @@ function App() {
               <div className="chart-section">
                 <CustomChart />
               </div>
-              <div className="dashboard" style={{ 
-                display: 'flex', 
-                justifyContent: 'space-between', 
-                alignItems: 'center', 
-                width: '85%', 
-                marginTop: '3%',
-                }} >
+              <div className="dashboard" >
                 <div className="progress-section">
                   <ProgressBar value={70}/>
                   <CheckBP />
